@@ -1,0 +1,22 @@
+.search {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #d82c0e;
+  border-radius: 25px;
+  color: #d82c0e;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  padding: 0px 20px;
+  width: 100%;
+  margin: 0px;
+  font-family: 'Chilanka', cursive;
+}
+
+z::placeholder {
+  color: #d82c0e;
+}
+
+
+*:focus {
+  outline: none;
+}
