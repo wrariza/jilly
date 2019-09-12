@@ -3,7 +3,6 @@ yilly-offers-search {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 h1 {
@@ -14,5 +13,10 @@ h1 {
 .contaier-offers {
   height: 100%;
   width: 80%;
+  margin: 0 auto;
+}
+
+yilly-list-offers {
+  height: 100%;
   margin: 0 auto;
 }

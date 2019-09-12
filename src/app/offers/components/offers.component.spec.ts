@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { YillyComponent } from './yilly.component'
+import { OffersComponent } from '../offers.component'
 
-describe('YillyComponent', () => {
-  let component: YillyComponent
-  let fixture: ComponentFixture<YillyComponent>
+describe('OffersComponent', () => {
+  let component: OffersComponent
+  let fixture: ComponentFixture<OffersComponent>
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [YillyComponent]
+      declarations: [OffersComponent]
     }).compileComponents()
   }))
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(YillyComponent)
+    fixture = TestBed.createComponent(OffersComponent)
     component = fixture.componentInstance
     fixture.detectChanges()
   })
