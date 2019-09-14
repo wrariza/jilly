@@ -1,27 +1,30 @@
-header {
-  background-color: #d82c0e;
-  width: 100%;
-  padding: 10px 0px;
-  display: flex;
-  color: white;
-  justify-content: space-between;
+ @import '../../../../styles.scss';
 
-  .logo img {
-    margin-left: 10px;
-    height: 45px;
-    border-radius: 5px;
-  }
+ header {
+   background-color: $secon-color;
+   font-family: 'Chilanka', cursive;
+   width: 100%;
+   padding: 10px 0px;
+   display: flex;
+   color: $font-secon-color;
+   justify-content: space-between;
 
-  .name {
-    font-size: 35px;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   .logo img {
+     margin-left: 10px;
+     height: 45px;
+     border-radius: 5px;
+   }
 
-    small {
-      font-size: 12px;
-      margin-left: 5px
-    }
-  }
-}
+   .name {
+     font-size: 35px;
+     margin-right: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     small {
+       font-size: 12px;
+       margin-left: 5px
+     }
+   }
+ }

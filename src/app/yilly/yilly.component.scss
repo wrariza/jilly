@@ -1,7 +1,10 @@
+@import '../../styles.scss';
+
 .banner {
   width: 70%;
-  margin: 30px auto;
+  margin: 0px auto;
   text-align: center;
+  color: $font-principal-color;
 
   p {
     font-size: 20px;
@@ -11,16 +14,20 @@
     width: 145px;
     height: 145px;
     object-fit: cover;
+
   }
 }
 
 h3 {
   text-align: center;
+  color: $font-principal-color;
 }
 
 .categories__container {
+  color: $font-principal-color;
   width: 70%;
   margin: 30px auto 0px auto;
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,8 +40,8 @@ h3 {
   }
 
   img {
-    width: 75%;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
     border-radius: 50%;
@@ -62,7 +69,7 @@ h3 {
     cursor: pointer;
     transition: 450ms all;
     transform-origin: center left;
-
+    color: $font-principal-color;
 
 
     em {

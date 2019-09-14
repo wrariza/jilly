@@ -1,6 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+$princial-color: linear-gradient(#1ebea5, #d82c0e);
+$font-principal-color: white;
+$secon-color: white;
+$font-secon-color : black;
+
 body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   margin: 0px;
-  font-family: 'Chilanka', cursive;
-  color: black;
+  font-family: 'Chilanka',
+    cursive;
+  background: $princial-color;
+  color: font-color-principal;
+}
+
+
+app-yilly {
+  min-height: calc(100vh - 172px);
+  display: flex;
+  flex-direction: column;
 }
